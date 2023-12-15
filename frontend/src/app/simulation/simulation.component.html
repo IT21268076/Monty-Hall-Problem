@@ -1,0 +1,20 @@
+<div class="container">
+    <h2>Monty Hall Simulation</h2>
+    <div class="form-group">
+      <label for="totalGames">Total Games:</label>
+      <input type="number" [(ngModel)]="totalGames" name="totalGames" id="totalGames" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="switchDoor">Switch Door:</label>
+      <input type="checkbox" [(ngModel)]="switchDoor" name="switchDoor" id="switchDoor" class="form-check-input">
+    </div>
+    <button (click)="simulateGames()" class="btn btn-primary">Simulate</button>
+  </div>
+  <div class="results" *ngIf="simulationResult">
+    <h3>Simulation Results</h3>
+    <p>Total Games: {{ simulationResult.totalGames }}</p>
+    <p>Wins by staying door: {{ simulationResult.stayWins }}</p>
+    <p>Wins by switching door: {{ simulationResult.switchWins }}</p>
+  </div>
+  
+  
