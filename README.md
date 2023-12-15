@@ -15,6 +15,8 @@ This Monty Hall Problem Simulation Web App is a project developed to illustrate 
 
 - **Frontend Framework:** Angular
 - **Backend Framework:** .NET
+- **Database:** (Specify if applicable)
+- **Deployment:** (Specify if applicable)
 
 ## Getting Started
 
@@ -41,6 +43,10 @@ Visit `http://localhost:4200` in your browser to access the web app.
 - Follow on-screen instructions to simulate the Monty Hall problem.
 - Explore the educational content to understand the probability concepts.
 
+## Contributing
+
+If you want to contribute to this project, please follow the [Contribution Guidelines](CONTRIBUTING.md).
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md).
@@ -49,7 +55,7 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 For any questions or inquiries, please contact:
 
-- Developer: Chamoda Karunathilaka
-- Email: chamodahirushan8298@gmail.com
+- Developer: Your Name
+- Email: your.email@example.com
 
 Thank you for using the Monty Hall Problem Simulation Web App!
